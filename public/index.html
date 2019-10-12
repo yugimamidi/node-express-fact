@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Webdev Facts</title>
+
+  <meta name="description" content="Get a simple fact related to web development.">
+
+  <!-- get current Bootstrap Material Design styles from https://mdbootstrap.com/md-bootstrap-cdn/ -->
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
+
+  <!-- A bit of CSS required for sticky footer -->
+  <link href="index.css" rel="stylesheet">
+
+</head>
+
+<body class="d-flex flex-column sticky-footer-wrapper">
+  <main class="container-fluid  ">
+    <div class="row d-flex justify-content-center">
+
+      <article id="adder" class="col-xs-12 ">
+        <h2>Free API:  Get a web development fact</h2>
+        <br>
+        <p>Cullaborative API by the Northwest web app developers.</p>
+        <br>
+        <p>Go to this default page</p>
+        <ul>
+          <li><a href="./">/</a></li>
+         </ul>
+
+        <p>Get a random fact</p>
+        <ul>
+           <li><a href="./fact">/fact</a></li>
+        </ul>
+
+        <p>Get by ID</p>
+        <ul>
+          <li><a href="./fact/1">/fact/1</a></li>
+          <li><a href="./fact/2">/fact/2</a></li>
+        </ul>
+
+        <p>Use query format instead</p>
+        <ul>
+          <li><a href="./fact/?id=1">/fact/?id=1</a></li>
+          <li><a href="./fact/?id=2">/fact/?id=2</a></li>
+        </ul>
+
+      </article>
+
+      <article id="adder" class="col-xs-12 ">
+        <br>
+        <p>Returns JSON in the format:</p>
+        <br>
+        <code>{
+          "id":1,
+          "fact":"HTML is for content.",
+          "by":"https://github.com/denisecase"
+        }</code>
+      </article>  
+
+    </div>
+  </main>
+
+  <!-- sticky footer with padding on y-axis (top and bottom) -->
+
+  <footer class="footer mt-auto py-3 bg-light">
+    <div class="container d-flex justify-content-center">
+      <a href="https://node-express-fact-563.herokuapp.com/">Demo</a>
+      &nbsp; &#9670; &nbsp;
+      <a href="https://github.com/denisecase/node-express-fact">Source</a>
+    </div>
+  </footer>
+
+  <!-- get current Bootstrap Material Design styles from https://mdbootstrap.com/md-bootstrap-cdn/ -->
+
+  <!-- JQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Bootstrap toultips -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/js/mdb.min.js"></script>
+
+</body>
+
+</html>

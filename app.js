@@ -13,43 +13,63 @@ const app = express()
 // app.use() Helmet middleware for secure HTTP headers (always!)
 app.use(helmet())
 
+// app.use() middleware to define a static assets folder 'public'
+app.use(express.static('public'))
+
 // Use hosting values if available, otherwise default 
 const environment = process.env.NODE_ENV || 'development'
 const hostname = process.env.HOSTNAME || config.get("hostname")
 const port = process.env.PORT || config.get("port");
 
-// app.get() to configure endpoints
+// Express app.get() to configure endpoints.........................
 
 // default
 app.get('/', (req, res) => {
-  res.send('Welcome to the default page! Try the fact API at <a href="./fact">/fact</a>.')
+  console.log('Request to /')
+  res.sendFile('index.html')
 })
 
 // fact/1
-app.get('/fact/:index', (req, res) => {
-  const i = req.params.index
-  res.send(JSON.stringify(data[i]))
-})
-
-// fact/?id=1
-app.get('/fact', (req, res) => {
-  const stringId = req.query.id
-  console.log(`Requested fact for string id = ${stringId}`)
-  try {
-    const intId = parseInt(stringId)
-    const entry = data.find(({ id }) => id === givenId)
+app.get('/fact/:id', (req, res) => {
+  console.log(`Request params = ${req.params}`)
+  const stringId = req.params.id
+  console.log(`Requested fact for id = ${stringId}`)
+  const intId = parseInt(stringId)
+  const entry = data.find(({ id }) => id === intId)
+  if (entry === undefined) {
+    res.send(`ERROR: No entry with id=${req.params.id}.`)
+  }
+  else {
     res.send(JSON.stringify(entry))
   }
-  catch (error) {
-    res.send(`ERROR: No entry with id=${req.query.id}.`)
-  }
 })
 
-// /fact
+// /fact or /fact/?
 app.get('/fact', (req, res) => {
-  const n = data.length
-  const rand = Math.floor(Math.random() * n)
-  res.send(JSON.stringify(data[rand]))
+  console.log(`Request query = ${req.query}`)
+  if (req.query.id === undefined) {
+    // get with a random index 
+    const numFacts = data.length
+    const rand = Math.floor(Math.random() * numFacts)
+    res.send(JSON.stringify(data[rand]))
+  }
+  else {
+    const stringId = req.query.id
+    console.log(`Queried fact for id = ${stringId}`)
+
+    const intId = parseInt(stringId)
+    if (isNaN(intId)) {
+      res.send(`ERROR: No entry with id=${req.query.id}.`)
+    }
+
+    const entry = data.find(({ id }) => id === intId)
+    if (entry === undefined) {
+      res.send(`ERROR: No entry with id=${req.query.id}.`)
+    }
+    else {
+      res.send(JSON.stringify(entry))
+    }
+  }
 })
 
 // app.use() middleware for unrecognized routes
