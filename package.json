@@ -1,0 +1,39 @@
+{
+  "name": "node-express-fact",
+  "description": "Get JSON with a simple web fact",
+  "version": "1.0.0",
+  "author": "Denise Case",
+  "bugs": {
+    "url": "https://github.com/denisecase/node-express-fact/issues"
+  },
+  "contributors": [
+    "Denise Case <dcase@nwmissouri.edu> (https://github.com/profcase)"
+  ],
+  "dependencies": {
+    "config": "latest",
+    "express": "latest",
+    "helmet": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  },
+  "homepage": "https://node-express-fact-563.herokuapp.com/",
+  "keywords": [
+    "Express.js",
+    "JavaScript",
+    "Node.js",
+    "app",
+    "web"
+  ],
+  "license": "MIT",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/denisecase/node-express-fact"
+  },
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
