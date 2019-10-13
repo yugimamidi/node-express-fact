@@ -4,7 +4,7 @@ module.exports = [
   { "id": 3, "fact": "JavaScript is for logic.", "by": "https://github.com/denisecase" },
   { "id": 4, "fact": "TCP/IP was invented by Vint Cerf and Bob Kahn in 1974"},
   { "id": 5, "fact": "Server-side apps can be written in numerous languages, including Java, JavaScript, Perl, PHP, Python, and, most recently, Swift"},
-  { "id": 6, "fact": "Node.js was invented by Ryan Dahl in 2009, and originalluy ran only on Linux and macOS"},
+  { "id": 6, "fact": "Node.js, invented by Ryan Dahl in 2009, originally ran only on Linux and macOS"},
   { "id": 7},
   { "id": 8},
   { "id": 9},
