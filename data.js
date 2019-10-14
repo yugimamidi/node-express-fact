@@ -7,7 +7,7 @@ module.exports = [
   { "id": 6, "fact": "Node.js, invented by Ryan Dahl in 2009, originally ran only on Linux and macOS"},
   { "id": 7},
   { "id": 8},
-  { "id": 9},
+  { "id": 9, "fact": "Web server can refer to hardware or software, or both of them working together.", "by": "https://github.com/karanamvijaykumar" },
   { "id": 101},
   { "id": 102},
   { "id": 103},
