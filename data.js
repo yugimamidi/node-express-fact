@@ -6,7 +6,7 @@ module.exports = [
   { "id": 5},
   { "id": 6},
   { "id": 7},
-  { "id": 8},
+  { "id": 8, "fact": "Nodejs is single threaded.", "by":"https://github.com/rahulreddy062"},
   { "id": 9},
   { "id": 101},
   { "id": 102},
