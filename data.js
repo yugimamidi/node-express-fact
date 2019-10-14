@@ -5,7 +5,7 @@ module.exports = [
   { "id": 4},
   { "id": 5},
   { "id": 6},
-  { "id": 7},
+  { "id": 7, "fact": "A web application is a software application that runs on a remote server.", "by": "https://github.com/nandinidoppalapudi" },
   { "id": 8},
   { "id": 9},
   { "id": 101},
