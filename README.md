@@ -31,7 +31,7 @@ npm install
 
 ## Start App Locally
 
-"Open PowerShell Here as Admin" and start your app with node: 
+"Open PowerShell Here as Admin" and start your app with node:
 
 ```PowerShell
 npm run dev
