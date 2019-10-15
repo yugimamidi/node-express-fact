@@ -6,7 +6,7 @@ module.exports = [
   { "id": 5, "fact": "Server-side apps can be written in numerous languages, including Java, JavaScript, Perl, PHP, Python, and, most recently, Swift"},
   { "id": 6, "fact": "Node.js, invented by Ryan Dahl in 2009, originally ran only on Linux and macOS"},
   { "id": 7, "fact": "A web application is a software application that runs on a remote server.", "by": "https://github.com/nandinidoppalapudi" },
-  { "id": 8},
+  { "id": 8, "fact": "Nodejs is single threaded.", "by":"https://github.com/rahulreddy062"},
   { "id": 9, "fact": "Web server can refer to hardware or software, or both of them working together.", "by": "https://github.com/karanamvijaykumar" },
   { "id": 101},
   { "id": 102},
