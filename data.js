@@ -8,6 +8,7 @@ module.exports = [
   { "id": 7, "fact": "A web application is a software application that runs on a remote server.", "by": "https://github.com/nandinidoppalapudi" },
   { "id": 8, "fact": "Nodejs is single threaded.", "by":"https://github.com/rahulreddy062"},
   { "id": 9, "fact": "Web server can refer to hardware or software, or both of them working together.", "by": "https://github.com/karanamvijaykumar" },
+  { "id": 23, "fact": "Java and JavaScript are not the same language.", "by":"https://github.com/JosephCW" },
   { "id": 101},
   { "id": 102},
   { "id": 103},
