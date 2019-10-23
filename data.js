@@ -43,7 +43,7 @@ module.exports = [
   { "id": 209},
   { "id": 210},
   { "id": 211},
-  { "id": 212},
+  { "id": 212, "fact": "In Javascript, an Array plus an Object equals an array of objects. An object plus an array equals 0.", "by": "https://github.com/mtburnes"},
   { "id": 213},
   { "id": 214},
   { "id": 215},
