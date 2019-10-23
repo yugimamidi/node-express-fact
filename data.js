@@ -24,7 +24,7 @@ module.exports = [
   { "id": 114},
   { "id": 115},
   { "id": 116},
-  { "id": 117},
+  { "id": 117, "fact": "Javascript is single threaded, but web workers and event listeners can be utilized to run javascript in a seperate background thread.", "by": "https://github.com/dakotagrvtt" },
   { "id": 118},
   { "id": 119},
   { "id": 120},
