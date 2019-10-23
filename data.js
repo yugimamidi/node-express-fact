@@ -49,7 +49,7 @@ module.exports = [
   { "id": 215},
   { "id": 216},
   { "id": 217},
-  { "id": 218},
+  { "id": 218, "fact": "Express framework is built on top of the node.js framework", "by":"https://github.com/Bhavya-123"},
   { "id": 219, "fact": "Angular is a platform for building mobile and desktop web applications.", "by": "https://github.com/prudhvi15"},
   { "id": 220, "fact": "PWA (Progressive Web App) is a responsive web app.", "by": "https://github.com/tanibi"},
   { "id": 221, "fact": "React is not a framework. It is a JavaScript library", "by": "https://github.com/aawajjoshi" },
