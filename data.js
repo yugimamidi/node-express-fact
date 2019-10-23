@@ -48,7 +48,7 @@ module.exports = [
   { "id": 214, "fact": "The average lifespan of a website is 3 years", "by": "https://github.com/JacobTaylorNWMSU"},
   { "id": 215},
   { "id": 216},
-  { "id": 217},
+  { "id": 217 , "fact":"Angular is a TypeScript-based open-source web application framework led by the Angular Team at Google.", "by":"https://github.com/RaghunandanKumar"},
   { "id": 218},
   { "id": 219, "fact": "Angular is a platform for building mobile and desktop web applications.", "by": "https://github.com/prudhvi15"},
   { "id": 220, "fact": "PWA (Progressive Web App) is a responsive web app.", "by": "https://github.com/tanibi"},
