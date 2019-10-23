@@ -25,7 +25,7 @@ module.exports = [
   { "id": 114}, "fact": "HTML is hyper text markup language use to create web pages", "by": "https://github.com/AzharAlali"},
   { "id": 115},
   { "id": 116},
-  { "id": 117},
+  { "id": 117, "fact": "Javascript is single threaded, but web workers and event listeners can be utilized to run javascript in a seperate background thread.", "by": "https://github.com/dakotagrvtt" },
   { "id": 118},
   { "id": 119, "fact": "HTML stands for HyperText Markup Language", "by": "https://github.com/s534141"},
   { "id": 120},
