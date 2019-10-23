@@ -12,7 +12,7 @@ module.exports = [
   { "id": 102},
   { "id": 103},
   { "id": 104},
-  { "id": 105},
+  { "id": 105 "fact": "React is a framework.", "by":"https://github.com/denisecase"},
   { "id": 106},
   { "id": 107},
   { "id": 108},
