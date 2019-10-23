@@ -36,7 +36,7 @@ module.exports = [
   { "id": 202, "fact": "Working in the same project as other people can be messy", "by": "https://github.com/DCoop25"},
   { "id": 203, "fact": "JSON stores data in key-value pairs.", "by": "https://github.com/terry-woosley"},
   { "id": 204},
-  { "id": 205},
+  { "id": 205, "fact": "java slogan Write once run anywhere", "by": "https://github.com/naveenpi"},
   { "id": 206, "fact": "WWW stands for World Wide Web", "by": "https://github.com/ayhalali" },
   { "id": 207},
   { "id": 208},
