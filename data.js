@@ -28,7 +28,7 @@ module.exports = [
   { "id": 118},
   { "id": 119},
   { "id": 120},
-  { "id": 121},
+  { "id": 121, "fact": "The CSS font-style property accepts a value of oblique aside from normal or italic.", "by": "https://github.com/cweltonsmith"},
   { "id": 122},
   { "id": 123},
   { "id": 124},
