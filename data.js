@@ -34,7 +34,7 @@ module.exports = [
   { "id": 124},
   { "id": 201},
   { "id": 202},
-  { "id": 203},
+  { "id": 203, "fact": "JSON stores data in key-value pairs.", "by": "https://github.com/terry-woosley"},
   { "id": 204},
   { "id": 205},
   { "id": 206},
