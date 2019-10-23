@@ -47,7 +47,7 @@ module.exports = [
   { "id": 213},
   { "id": 214, "fact": "The average lifespan of a website is 3 years", "by": "https://github.com/JacobTaylorNWMSU"},
   { "id": 215},
-  { "id": 216},
+  { "id": 216, "fact": "Flask is a microweb Framework written in python", "by": "https://github.com/hareeshbhuma"},
   { "id": 217 , "fact":"Angular is a TypeScript-based open-source web application framework led by the Angular Team at Google.", "by":"https://github.com/RaghunandanKumar"},
   { "id": 218},
   { "id": 219, "fact": "Angular is a platform for building mobile and desktop web applications.", "by": "https://github.com/prudhvi15"},
