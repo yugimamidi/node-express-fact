@@ -41,7 +41,7 @@ module.exports = [
   { "id": 206, "fact": "WWW stands for World Wide Web", "by": "https://github.com/ayhalali" },
   { "id": 207, "fact":"Vue.js is an open-source Model–view–viewmodel JavaScript framework for building user interfaces and single-page applications.", "by": "https://github.com/anil-bomma" },
   { "id": 208},
-  { "id": 209, "fact": "React is a framework.", "by": "https://github.com/denisecase"},
+  { "id": 209, "fact": "React is a framework.", "by": "https://github.com/yugimamidi"},
   { "id": 210, "fact": "React is a java script library maintained by facebook and some other individual members.", "by": "https://github.com/abhiteja29" },
   { "id": 211, "fact": "JSON stands for JavaScript Object Notation", "by": "https://github.com/Echtniet"},
   { "id": 212, "fact": "In Javascript, an Array plus an Object equals an array of objects. An object plus an array equals 0.", "by": "https://github.com/mtburnes"},
