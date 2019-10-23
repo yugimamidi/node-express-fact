@@ -51,7 +51,7 @@ module.exports = [
   { "id": 217},
   { "id": 218},
   { "id": 219, "fact": "Angular is a platform for building mobile and desktop web applications.", "by": "https://github.com/prudhvi15"},
-  { "id": 220},
+  { "id": 220, "fact": "PWA (Progressive Web App) is a responsive web app.", "by": "https://github.com/tanibi"},
   { "id": 221},
  { "id": 222, "fact":"Progressive Web Apps are the recent innovation in technology. PWAs are an escape from the App Store.", "by":"https://github.com/suma-gitrep"},
   { "id": 223},
