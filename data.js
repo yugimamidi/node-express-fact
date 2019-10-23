@@ -53,7 +53,7 @@ module.exports = [
   { "id": 219},
   { "id": 220},
   { "id": 221},
-  { "id": 222},
+ { "id": 222, "fact":"Progressive Web Apps are the recent innovation in technology. PWAs are an escape from the App Store.", "by":"https://github.com/suma-gitrep"},
   { "id": 223},
   { "id": 224},
   { "id": 401},
