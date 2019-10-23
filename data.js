@@ -29,7 +29,7 @@ module.exports = [
   { "id": 118},
   { "id": 119, "fact": "HTML stands for HyperText Markup Language", "by": "https://github.com/s534141"},
   { "id": 120},
-  { "id": 121},
+  { "id": 121, "fact": "The CSS font-style property accepts a value of oblique aside from normal or italic.", "by": "https://github.com/cweltonsmith"},
   { "id": 122, "fact": "Python Flask is a back end web development tool that uses python.", "by": "https://github.com/khart0012"},
   { "id": 123},
   { "id": 124},
