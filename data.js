@@ -38,7 +38,7 @@ module.exports = [
   { "id": 204, "fact": "JavaScript is not a part of Java programming", "by": "https://github.com/prasadbobbilla"},
   { "id": 205, "fact": "java slogan Write once run anywhere", "by": "https://github.com/naveenpi"},
   { "id": 206, "fact": "WWW stands for World Wide Web", "by": "https://github.com/ayhalali" },
-  { "id": 207},
+  { "id": 207, "fact":"Vue.js is an open-source Model–view–viewmodel JavaScript framework for building user interfaces and single-page applications.", "by": "https://github.com/anil-bomma" },
   { "id": 208},
   { "id": 209, "fact": "React is a framework.", "by": "https://github.com/denisecase"},
   { "id": 210, "fact": "React is a java script library maintained by facebook and some other individual members.", "by": "https://github.com/abhiteja29" },
@@ -49,7 +49,7 @@ module.exports = [
   { "id": 215},
   { "id": 216, "fact": "Flask is a microweb Framework written in python", "by": "https://github.com/hareeshbhuma"},
   { "id": 217 , "fact":"Angular is a TypeScript-based open-source web application framework led by the Angular Team at Google.", "by":"https://github.com/RaghunandanKumar"},
- { "id": 218, "fact": "Express framework is built on top of the node.js framework", "by":"https://github.com/Bhavya-123"},
+  { "id": 218, "fact": "Express framework is built on top of the node.js framework", "by":"https://github.com/Bhavya-123"}
   { "id": 219, "fact": "Angular is a platform for building mobile and desktop web applications.", "by": "https://github.com/prudhvi15"},
   { "id": 220, "fact": "PWA (Progressive Web App) is a responsive web app.", "by": "https://github.com/tanibi"},
   { "id": 221, "fact": "React is not a framework. It is a JavaScript library", "by": "https://github.com/aawajjoshi" },
