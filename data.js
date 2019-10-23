@@ -45,7 +45,7 @@ module.exports = [
   { "id": 211, "fact": "JSON stands for JavaScript Object Notation", "by": "https://github.com/Echtniet"},
   { "id": 212, "fact": "In Javascript, an Array plus an Object equals an array of objects. An object plus an array equals 0.", "by": "https://github.com/mtburnes"},
   { "id": 213},
-  { "id": 214},
+  { "id": 214, "fact": "The average lifespan of a website is 3 years", "by": "https://github.com/JacobTaylorNWMSU"},
   { "id": 215},
   { "id": 216},
   { "id": 217},
