@@ -41,7 +41,7 @@ module.exports = [
   { "id": 207},
   { "id": 208},
   { "id": 209},
-   { "id": 210, "fact": "React is a java script library maintained by facebook and some other individual members.", "by": "https://github.com/abhiteja29" },
+   { "id": 210, "fact": "React is a java script library maintained by facebook and some other group of individual members.", "by": "https://github.com/abhiteja29" },
   { "id": 211, "fact": "JSON stands for JavaScript Object Notation", "by": "https://github.com/Echtniet"},
   { "id": 212, "fact": "In Javascript, an Array plus an Object equals an array of objects. An object plus an array equals 0.", "by": "https://github.com/mtburnes"},
   { "id": 213},
