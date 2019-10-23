@@ -52,7 +52,7 @@ module.exports = [
   { "id": 218},
   { "id": 219, "fact": "Angular is a platform for building mobile and desktop web applications.", "by": "https://github.com/prudhvi15"},
   { "id": 220},
-  { "id": 221},
+  { "id": 221, "fact": "React is not a framework. It is a JavaScript library", "by": "https://github.com/aawajjoshi" },
   { "id": 222,  "fact":"Progressive Web Apps are the recent innovation in technology. PWAs are an escape from the App Store.", "by":"https://github.com/suma-gitrep"},
   { "id": 223, "fact": "GitHub is a opensource version control system to store the code.", "by": "https://github.com/mohanpratapa" },
   { "id": 224},
