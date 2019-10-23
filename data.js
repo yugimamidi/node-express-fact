@@ -45,7 +45,7 @@ module.exports = [
   { "id": 211},
   { "id": 212},
   { "id": 213},
-  { "id": 214},
+  { "id": 214, "fact": "The average lifespan of a website is 3 years", "by": "https://github.com/JacobTaylorNWMSU"},
   { "id": 215},
   { "id": 216},
   { "id": 217},
