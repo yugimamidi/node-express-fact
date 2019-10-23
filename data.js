@@ -32,7 +32,7 @@ module.exports = [
   { "id": 122},
   { "id": 123},
   { "id": 124},
-  { "id": 201},
+  { "id": 201, "fact": "React is a widely used libaray.","by": "https://github.com/xchen182"},
   { "id": 202},
   { "id": 203},
   { "id": 204},
