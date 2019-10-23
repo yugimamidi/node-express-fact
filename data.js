@@ -29,7 +29,7 @@ module.exports = [
   { "id": 119},
   { "id": 120},
   { "id": 121},
-  { "id": 122},
+  { "id": 122, "fact": "Python Flask is a back end web development tool that uses python.", "by": "https://github.com/khart0012"},
   { "id": 123},
   { "id": 124},
   { "id": 201, "fact": "React is a widely used libaray.","by": "https://github.com/xchen182"},
