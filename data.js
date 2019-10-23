@@ -52,7 +52,7 @@ module.exports = [
   { "id": 218},
   { "id": 219},
   { "id": 220},
-  { "id": 221},
+  { "id": 221, "fact": "React is not a framework. It is a JavaScript library", "by": "https://github.com/aawajjoshi" },
   { "id": 222},
   { "id": 223},
   { "id": 224},
